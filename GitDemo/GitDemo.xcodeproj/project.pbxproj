@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C536D5841BF5709400D8A4C4 /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = C536D5831BF5709400D8A4C4 /* ViewControllerB.m */; };
 		C5BB88A01BF4DBAE009137FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB889F1BF4DBAE009137FB /* main.m */; };
 		C5BB88A31BF4DBAE009137FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB88A21BF4DBAE009137FB /* AppDelegate.m */; };
 		C5BB88A61BF4DBAE009137FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB88A51BF4DBAE009137FB /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C536D5821BF5709400D8A4C4 /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		C536D5831BF5709400D8A4C4 /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
 		C5BB889A1BF4DBAE009137FB /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BB889E1BF4DBAE009137FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5BB889F1BF4DBAE009137FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C536D5811BF5707E00D8A4C4 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				C536D5821BF5709400D8A4C4 /* ViewControllerB.h */,
+				C536D5831BF5709400D8A4C4 /* ViewControllerB.m */,
+			);
+			name = B;
+			sourceTree = "<group>";
+		};
 		C5BB88911BF4DBAE009137FB = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +96,7 @@
 		C5BB889C1BF4DBAE009137FB /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C536D5811BF5707E00D8A4C4 /* B */,
 				C5BB88C31BF4DEB3009137FB /* A */,
 				C5BB88A11BF4DBAE009137FB /* AppDelegate.h */,
 				C5BB88A21BF4DBAE009137FB /* AppDelegate.m */,
@@ -236,6 +249,7 @@
 				C5BB88A61BF4DBAE009137FB /* ViewController.m in Sources */,
 				C5BB88A31BF4DBAE009137FB /* AppDelegate.m in Sources */,
 				C5BB88A01BF4DBAE009137FB /* main.m in Sources */,
+				C536D5841BF5709400D8A4C4 /* ViewControllerB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
